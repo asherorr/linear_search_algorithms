@@ -1,8 +1,8 @@
 def linear_search(lst, target):
     #Returns the index position of the target if found, else returns None
-    for i in range(0, len(lst)):
-        if lst[i] == target:
-            return i
+    for index, value in enumerate(lst):
+        if value == target:
+            return index
     return None
 
 
